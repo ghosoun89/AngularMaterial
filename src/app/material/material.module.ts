@@ -8,37 +8,42 @@ import * as Material from "@angular/material";
     CommonModule,
     Material.MatToolbarModule,
     Material.MatGridListModule,
-Material.MatFormFieldModule,
-Material.MatInputModule,
-Material.MatRadioModule,
-Material.MatSelectModule,
-Material.MatCheckboxModule,
-Material.MatDatepickerModule,
+    Material.MatFormFieldModule,
+    Material.MatInputModule,
+    Material.MatRadioModule,
+    Material.MatSelectModule,
+    Material.MatCheckboxModule,
+    Material.MatDatepickerModule,
 
-Material.MatNativeDateModule,
-Material.MatButtonModule,
-Material.MatSnackBarModule,
+    Material.MatNativeDateModule,
+    Material.MatButtonModule,
+    Material.MatTableModule,
+    Material.MatIconModule,
+    Material.MatPaginatorModule,
+    Material.MatSortModule,
+
+
 
 
 
 
 
   ],
-  exports :[
+  exports: [
     Material.MatToolbarModule,
     Material.MatGridListModule,
     Material.MatFormFieldModule,
-Material.MatInputModule,
-Material.MatRadioModule,
-Material.MatSelectModule,
-Material.MatCheckboxModule,
-Material.MatDatepickerModule,
-Material.MatButtonModule,
-Material.MatSnackBarModule,
-
-
-
-Material.MatNativeDateModule,
+    Material.MatInputModule,
+    Material.MatRadioModule,
+    Material.MatSelectModule,
+    Material.MatCheckboxModule,
+    Material.MatDatepickerModule,
+    Material.MatButtonModule,
+    Material.MatNativeDateModule,
+    Material.MatTableModule,
+    Material.MatIconModule,
+    Material.MatPaginatorModule,
+    Material.MatSortModule,
 
 
 
