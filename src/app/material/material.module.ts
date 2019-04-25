@@ -21,6 +21,8 @@ import * as Material from "@angular/material";
     Material.MatIconModule,
     Material.MatPaginatorModule,
     Material.MatSortModule,
+    Material.MatDialogModule,
+
 
 
 
@@ -44,6 +46,8 @@ import * as Material from "@angular/material";
     Material.MatIconModule,
     Material.MatPaginatorModule,
     Material.MatSortModule,
+    Material.MatDialogModule,
+
 
 
 

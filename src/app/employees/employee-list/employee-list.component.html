@@ -1,6 +1,6 @@
 <!-- search part and using filtring -->
 <div class="search-div">
-  <button mat-aised-button
+  <button mat-aised-button (click) = "onCreate()"
   ><mat-icon>add</mat-icon>Create</button>
   <mat-form-field class="search-form-field" floatLabel="never">
     <input matInput [(ngModel)]="searchKey" placeholder="search" autocomplete="off" (keyup)="applyFilter()">
@@ -34,8 +34,9 @@
           <ng-container matColumnDef="actions">
               <mat-header-cell *matHeaderCellDef></mat-header-cell>
               <mat-cell *matCellDef="let row">
-                <button mat-icon-button><mat-icon>launch</mat-icon></button>
-                <button mat-icon-button color="warn"><mat-icon>delete_outline</mat-icon></button>
+                <!-- function takes a prameter "row" -->
+                <button mat-icon-button (click)= "onEdit(row)"><mat-icon>launch</mat-icon></button>
+                <button mat-icon-button color="warn" (click)="onDelete(row.$key)"><mat-icon>delete_outline</mat-icon></button>
               </mat-cell>
             </ng-container>
             <ng-container matColumnDef="loading">

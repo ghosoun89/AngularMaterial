@@ -1,3 +1,11 @@
+<mat-toolbar>
+  <span>{{service.form.controls['$key'].value ?"Modify employee": "New Employee"}}</span>
+  <span class="fill-remaining-space"></span>
+  <button class="btn-dialog-close" mat-strocked-button (click)="onClose()" tabIndex="-1"><mat-icon>clear</mat-icon></button>
+</mat-toolbar>
+
+
+
 <!-- we bring formgroup from service -->
 <!-- weshould import reactiveformModule inside app.module -->
 <form [formGroup] = "service.form" class="normal-form" (submit)="onSubmit()">
